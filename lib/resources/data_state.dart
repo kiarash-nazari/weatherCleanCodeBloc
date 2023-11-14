@@ -9,5 +9,5 @@ class DataSuccess<T> extends DataState<T> {
 }
 
 class DataFaild<T> extends DataState<T> {
-  const DataFaild(String? error) : super(null, error);
+  const DataFaild(String error) : super(null, error);
 }
